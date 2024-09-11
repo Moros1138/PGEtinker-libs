@@ -1,0 +1,102 @@
+{
+    "versions": {
+        "olcPixelGameEngine": {
+            "v2.23": {
+                "miniaudio": [
+                    "0.11.21"
+                ],
+                "olcPGEX_Gamepad": [
+                    "latest"
+                ],
+                "olcPGEX_MiniAudio": [
+                    "v1.5",
+                    "v1.6",
+                    "v1.7"
+                ],
+                "olcSoundWaveEngine": [
+                    "v0.02"
+                ]
+            },
+            "v2.24": {
+                "miniaudio": [
+                    "0.11.21"
+                ],
+                "olcPGEX_Gamepad": [
+                    "latest"
+                ],
+                "olcPGEX_MiniAudio": [
+                    "v1.5",
+                    "v1.6",
+                    "v1.7"
+                ],
+                "olcSoundWaveEngine": [
+                    "v0.02"
+                ]
+            },
+            "v2.25": {
+                "miniaudio": [
+                    "0.11.21"
+                ],
+                "olcPGEX_Gamepad": [
+                    "latest"
+                ],
+                "olcPGEX_MiniAudio": [
+                    "v1.5",
+                    "v1.6",
+                    "v1.7"
+                ],
+                "olcSoundWaveEngine": [
+                    "v0.02"
+                ]
+            },
+            "v2.26": {
+                "miniaudio": [
+                    "0.11.21"
+                ],
+                "olcPGEX_Gamepad": [
+                    "latest"
+                ],
+                "olcPGEX_MiniAudio": [
+                    "v1.5",
+                    "v1.6",
+                    "v1.7"
+                ],
+                "olcSoundWaveEngine": [
+                    "v0.02"
+                ]
+            },
+            "v2.27": {
+                "miniaudio": [
+                    "0.11.21"
+                ],
+                "olcPGEX_Gamepad": [
+                    "latest"
+                ],
+                "olcPGEX_MiniAudio": [
+                    "v1.5",
+                    "v1.6",
+                    "v1.7"
+                ],
+                "olcSoundWaveEngine": [
+                    "v0.02"
+                ]
+            }
+        }
+    },
+    "macroToObject": {
+        "OLC_PGE_APPLICATION":      "olcPixelGameEngine.o",
+        "MINIAUDIO_IMPLEMENTATION": "miniaudio.o",
+        "OLC_PGE_GAMEPAD":          "olcPGEX_Gamepad.o",
+        "OLC_PGEX_GRAPHICS2D":      "extensions/olcPGEX_Graphics2D.o",
+        "OLC_PGEX_GRAPHICS3D":      "extensions/olcPGEX_Graphics3D.o",
+        "OLC_PGEX_MINIAUDIO":       "olcPGEX_MiniAudio.o",
+        "OLC_PGEX_POPUPMENU":       "extensions/olcPGEX_PopUpMenu.o",
+        "OLC_PGEX_QUICKGUI":        "extensions/olcPGEX_QuickGUI.o",
+        "OLC_PGEX_RAYCASTWORLD":    "extensions/olcPGEX_RayCastWorld.o",
+        "OLC_PGEX_SOUND":           "extensions/olcPGEX_Sound.o",
+        "OLC_PGEX_SPLASHSCREEN":    "extensions/olcPGEX_SplashScreen.o",
+        "OLC_PGEX_TRANSFORMEDVIEW": "extensions/olcPGEX_TransformedView.o",
+        "OLC_PGEX_WIREFRAME":       "extensions/olcPGEX_Wireframe.o",
+        "OLC_SOUNDWAVE_ENGINE":     "olcSoundWaveEngine.o"
+    }
+}
