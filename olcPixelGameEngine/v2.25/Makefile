@@ -19,6 +19,6 @@ all: $(OBJS)
 
 # Clean up all generated object files
 clean:
-	find $(SRCDIR) -name '*.o' -delete
+	@find $(SRCDIR) -name '*.o' -delete -exec echo {} \;
 
 .PHONY: all clean
