@@ -19,11 +19,14 @@ This repository contains the support library files used in PGEtinker and PGEtink
 * olcSoundWaveEngine
     * v0.02
 
-# Build Notes
+# Dependencies
 
-```bash
-bash build-libs.sh
-```
+This repo depends on:
+
+* python3
+* emscripten 3.1.56
+
+# Build Notes
 
 Building this repo expects emscripten to be installed at:
 
@@ -31,10 +34,12 @@ Building this repo expects emscripten to be installed at:
 /opt/emsdk
 ```
 
-Using the version **3.1.56**
 
+Run the following command to build all versions of all libraries:
 
-
+```bash
+bash build-libs.sh
+```
 
 # Deployment Notes
 
