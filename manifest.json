@@ -1,87 +1,72 @@
 {
-    "versions": {
-        "olcPixelGameEngine": {
-            "v2.23": {
-                "miniaudio": [
-                    "0.11.21"
+    "bundles": {
+        "olcPixelGameEngine": [
+            {
+                "version": "v2.23",
+                "libraries": [
+                    "miniaudio",
+                    "olcPGEX_Gamepad",
+                    "olcPGEX_MiniAudio",
+                    "olcSoundWaveEngine"
                 ],
-                "olcPGEX_Gamepad": [
-                    "latest"
-                ],
-                "olcPGEX_MiniAudio": [
-                    "v1.5",
-                    "v1.6",
-                    "v1.7"
-                ],
-                "olcSoundWaveEngine": [
-                    "v0.02"
-                ]
+                "miniaudio":          [ "0.11.21" ],
+                "olcPGEX_Gamepad":    [ "f5958a5" ],
+                "olcPGEX_MiniAudio":  [ "v1.5", "v1.6", "v1.7" ],
+                "olcSoundWaveEngine": [ "v0.02" ]
             },
-            "v2.24": {
-                "miniaudio": [
-                    "0.11.21"
+            {
+                "version": "v2.24",
+                "libraries": [
+                    "miniaudio",
+                    "olcPGEX_Gamepad",
+                    "olcPGEX_MiniAudio",
+                    "olcSoundWaveEngine"
                 ],
-                "olcPGEX_Gamepad": [
-                    "latest"
-                ],
-                "olcPGEX_MiniAudio": [
-                    "v1.5",
-                    "v1.6",
-                    "v1.7"
-                ],
-                "olcSoundWaveEngine": [
-                    "v0.02"
-                ]
+                "miniaudio":          [ "0.11.21" ],
+                "olcPGEX_Gamepad":    [ "f5958a5" ],
+                "olcPGEX_MiniAudio":  [ "v1.5", "v1.6", "v1.7" ],
+                "olcSoundWaveEngine": [ "v0.02" ]
             },
-            "v2.25": {
-                "miniaudio": [
-                    "0.11.21"
+            {
+                "version": "v2.25",
+                "libraries": [
+                    "miniaudio",
+                    "olcPGEX_Gamepad",
+                    "olcPGEX_MiniAudio",
+                    "olcSoundWaveEngine"
                 ],
-                "olcPGEX_Gamepad": [
-                    "latest"
-                ],
-                "olcPGEX_MiniAudio": [
-                    "v1.5",
-                    "v1.6",
-                    "v1.7"
-                ],
-                "olcSoundWaveEngine": [
-                    "v0.02"
-                ]
+                "miniaudio":          [ "0.11.21" ],
+                "olcPGEX_Gamepad":    [ "f5958a5" ],
+                "olcPGEX_MiniAudio":  [ "v1.5", "v1.6", "v1.7" ],
+                "olcSoundWaveEngine": [ "v0.02" ]
             },
-            "v2.26": {
-                "miniaudio": [
-                    "0.11.21"
+            {
+                "version": "v2.26",
+                "libraries": [
+                    "miniaudio",
+                    "olcPGEX_Gamepad",
+                    "olcPGEX_MiniAudio",
+                    "olcSoundWaveEngine"
                 ],
-                "olcPGEX_Gamepad": [
-                    "latest"
-                ],
-                "olcPGEX_MiniAudio": [
-                    "v1.5",
-                    "v1.6",
-                    "v1.7"
-                ],
-                "olcSoundWaveEngine": [
-                    "v0.02"
-                ]
+                "miniaudio":          [ "0.11.21" ],
+                "olcPGEX_Gamepad":    [ "f5958a5" ],
+                "olcPGEX_MiniAudio":  [ "v1.5", "v1.6", "v1.7" ],
+                "olcSoundWaveEngine": [ "v0.02" ]
             },
-            "v2.27": {
-                "miniaudio": [
-                    "0.11.21"
+            {
+                "version": "v2.27",
+                "libraries": [
+                    "miniaudio",
+                    "olcPGEX_Gamepad",
+                    "olcPGEX_MiniAudio",
+                    "olcSoundWaveEngine"
                 ],
-                "olcPGEX_Gamepad": [
-                    "latest"
-                ],
-                "olcPGEX_MiniAudio": [
-                    "v1.5",
-                    "v1.6",
-                    "v1.7"
-                ],
-                "olcSoundWaveEngine": [
-                    "v0.02"
-                ]
+                "miniaudio":          [ "0.11.21" ],
+                "olcPGEX_Gamepad":    [ "f5958a5" ],
+                "olcPGEX_MiniAudio":  [ "v1.5", "v1.6", "v1.7" ],
+                "olcSoundWaveEngine": [ "v0.02" ]
             }
-        }
+        ]
     },
     "macroToObject": {
         "OLC_PGE_APPLICATION":      "olcPixelGameEngine.o",
